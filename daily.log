@@ -1,0 +1,4 @@
+Day 1:
+- Built: env setup, repo, first EDA script on MovieLens data
+- Broke/fixed: [whatever actually happened — e.g. "venv activation on Windows tripped me up"]
+- Understood: pandas .info() vs .describe() give different views of the same data
