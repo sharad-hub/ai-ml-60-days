@@ -2,3 +2,9 @@ Day 1:
 - Built: env setup, repo, first EDA script on MovieLens data
 - Broke/fixed: [whatever actually happened — e.g. "venv activation on Windows tripped me up"]
 - Understood: pandas .info() vs .describe() give different views of the same data
+
+
+Day 2:
+- Built: NumPy warm-up + groupby/merge analysis on MovieLens
+- Broke/fixed: [e.g. "extracting year from title needed regex, forgot to escape parens"]
+- Understood: groupby+agg vs merge — one summarizes, one joins tables
