@@ -14,3 +14,9 @@ Day 2:
 - Built: genre popularity, top-rated-with-min-votes, rating-by-decade, most active user
 - Broke/fixed: grouped by year instead of decade first — need explicit decade bucketing, and str.extract needs a dtype cast before doing math on it
 - Understood: filter-by-group-size can be done as groupby+filter(lambda) or the faster transform("count") pattern
+
+
+Day 3:
+- Built: first-ever model — LinearRegression predicting movie rating from count+year
+- Broke/fixed: [whatever came up — e.g. NaN years crashing train_test_split, needed dropna]
+- Understood: train/test split exists so you're not grading the model on an exam it already saw the answers to
