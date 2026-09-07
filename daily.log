@@ -20,3 +20,8 @@ Day 3:
 - Built: first-ever model — LinearRegression predicting movie rating from count+year
 - Broke/fixed: [whatever came up — e.g. NaN years crashing train_test_split, needed dropna]
 - Understood: train/test split exists so you're not grading the model on an exam it already saw the answers to
+
+Day 4:
+- Built: dummy baseline, evaluate() function, LinearRegression with one-hot genre features
+- Broke/fixed: [whatever came up, e.g. get_dummies column explosion, NaN handling]
+- Understood: a "baseline" isn't optional — MAE means nothing without something dumb to compare it against
