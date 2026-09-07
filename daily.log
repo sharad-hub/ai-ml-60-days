@@ -8,3 +8,9 @@ Day 2:
 - Built: NumPy warm-up + groupby/merge analysis on MovieLens
 - Broke/fixed: [e.g. "extracting year from title needed regex, forgot to escape parens"]
 - Understood: groupby+agg vs merge — one summarizes, one joins tables
+
+
+Day 2:
+- Built: genre popularity, top-rated-with-min-votes, rating-by-decade, most active user
+- Broke/fixed: grouped by year instead of decade first — need explicit decade bucketing, and str.extract needs a dtype cast before doing math on it
+- Understood: filter-by-group-size can be done as groupby+filter(lambda) or the faster transform("count") pattern

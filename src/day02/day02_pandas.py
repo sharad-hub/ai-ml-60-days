@@ -47,7 +47,7 @@ print(movie_stats.sort_values("count", ascending=False).head(10))
 
 
 
-###
+### Step 4: Pandas — Merge (30 min)
 # merge movie titles into the ratings/stats table
 merged = movie_stats.merge(movies, on="movieId")
 print(merged.head())
